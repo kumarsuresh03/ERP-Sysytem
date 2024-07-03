@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/VivekKumar432/LPU-Intership-2.git'
+                git 'https://github.com/kumarsuresh03/ERP-Sysytem.git'
             }
         }
         stage('Build Backend') {
